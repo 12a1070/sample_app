@@ -75,6 +75,7 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
   gem "minitest"
+  gem "rails-controller-testing"
   gem "minitest-reporters"
   gem "webdrivers"
   gem "guard"
