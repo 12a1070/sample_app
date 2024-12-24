@@ -28,7 +28,6 @@ end
 class ValidLogin < UsersLogin
 
   def setup
-    super
     post login_path, params: { session: { email:    @user.email,
                                           password: 'password' } }
   end
@@ -53,7 +52,6 @@ end
 class Logout < ValidLogin
 
   def setup
-    super
     delete logout_path
   end
 end
