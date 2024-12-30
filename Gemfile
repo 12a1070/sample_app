@@ -9,6 +9,8 @@ gem "bootstrap-sass",  "3.4.1"
 gem "sassc", ">= 2.0"
 gem "bcrypt"
 gem "faker"
+gem "will_paginate",  "3.3.1"
+gem "bootstrap-will_paginate",  "1.0.0"
 
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem "sprockets-rails"
