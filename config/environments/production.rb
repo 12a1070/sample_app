@@ -92,4 +92,5 @@ Rails.application.configure do
   config.active_record.dump_schema_after_migration = false
 end
 
+# メンターさん追加箇所
 Rails.application.routes.default_url_options[:host] = 'sample-app-9g4h.onrender.com'
