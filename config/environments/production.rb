@@ -78,7 +78,7 @@ Rails.application.configure do
     :domain         => host,
     :authentication => :plain,
   }
-  .
+
 
 
   # Enable locale fallbacks for I18n (makes lookups for any locale fall back to
