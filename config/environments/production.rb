@@ -106,4 +106,4 @@ Rails.application.configure do
 end
 
 # メンターさん追加箇所。renderのアドレス
-Rails.application.routes.default_url_options[:host] = 'sample-app-9g4h.onrender.com'
+# Rails.application.routes.default_url_options[:host] = 'sample-app-9g4h.onrender.com'
