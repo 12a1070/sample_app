@@ -1,5 +1,6 @@
 require "active_support/core_ext/integer/time"
 
+
 Rails.application.configure do
   # Settings specified here will take precedence over those in config/application.rb.
 
@@ -78,7 +79,6 @@ Rails.application.configure do
     :domain         => host,
     :authentication => :plain,
   }
-
 
 
   # Enable locale fallbacks for I18n (makes lookups for any locale fall back to
